@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "loggerType": "applicationInsights",
+    "credentials": {
+      "instrumentationKey": "{{Logger-Credentials--6797debfc879492cc0a9dce3}}"
+    },
+    "isBuffered": true,
+    "resourceId": "/subscriptions/bd2f0763-2094-4329-959d-c342b8c4fef1/resourceGroups/rg-jan-deploy/providers/microsoft.insights/components/appi-ighmfsyxlmlby"
+  }
+}

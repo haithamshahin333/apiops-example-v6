@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "description": "Load balancer for multiple OpenAI endpoints",
+    "pool": {
+      "services": [
+        {
+          "id": "/subscriptions/bd2f0763-2094-4329-959d-c342b8c4fef1/resourceGroups/rg-jan-deploy/providers/Microsoft.ApiManagement/service/apim-test-hsjandeploy/backends/primary",
+          "priority": 1
+        },
+        {
+          "id": "/subscriptions/bd2f0763-2094-4329-959d-c342b8c4fef1/resourceGroups/rg-jan-deploy/providers/Microsoft.ApiManagement/service/apim-test-hsjandeploy/backends/backup",
+          "priority": 2
+        }
+      ]
+    },
+    "type": "Pool"
+  }
+}

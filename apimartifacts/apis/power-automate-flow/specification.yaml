@@ -1,0 +1,28 @@
+openapi: 3.0.1
+info:
+  title: power-automate-flow
+  description: ''
+  version: '1.0'
+servers:
+  - url: https://apim-test-hsjandeploy.azure-api.net/flow
+paths:
+  /*:
+    post:
+      summary: GET all
+      operationId: get-all
+      responses:
+        '200':
+          description: 
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]

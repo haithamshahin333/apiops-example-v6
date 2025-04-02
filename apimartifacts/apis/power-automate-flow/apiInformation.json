@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "path": "flow",
+    "apiRevision": "1",
+    "authenticationSettings": {},
+    "description": "",
+    "isCurrent": true,
+    "displayName": "power-automate-flow",
+    "protocols": [
+      "https"
+    ],
+    "serviceUrl": "https://prod-01.usgovtexas.logic.azure.us:443/workflows/e64efabe897e4f13867c32f15c064819/triggers/manual/paths/invoke?api-version=2016-06-01",
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": true
+  }
+}

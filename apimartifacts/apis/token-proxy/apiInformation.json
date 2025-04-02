@@ -1,15 +1,15 @@
 {
   "properties": {
-    "path": "openai",
+    "path": "",
     "apiRevision": "1",
     "authenticationSettings": {},
-    "description": "Azure OpenAI APIs for completions and search",
+    "description": "",
     "isCurrent": true,
-    "displayName": "OpenAI",
+    "displayName": "token-proxy",
     "protocols": [
       "https"
     ],
-    "serviceUrl": "https://apim-test-hsjandeploy.azure-api.net/openai",
+    "serviceUrl": "https://login.microsoftonline.com",
     "subscriptionKeyParameterNames": {
       "header": "Ocp-Apim-Subscription-Key",
       "query": "subscription-key"
